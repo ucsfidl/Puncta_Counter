@@ -2,7 +2,8 @@
  * Marker.java
  *
  * Adapted from the Cell Counter plugin written by Kurt De Vos (2005)
- * by Vito Cairone and Sebastian Espinosa for Dr. Michael Stryker's lab at the University of California San Francisco
+ * by Vito Cairone, Sebastian Espinosa, and Y. Jennifer Sun
+ * for Dr. Michael Stryker's lab at the University of California San Francisco
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License

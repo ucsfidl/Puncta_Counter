@@ -2,11 +2,11 @@
 
 Puncta_Counter is ImageJ Plugin an imaging processing pipeline which includes a main GUI and 4 customizable modules:
 
--  Puncta_Counter:                  Main visualization GUI
--  Puncta_CounterAutodetect:        1.Puncta detection
--  Puncta_CounterAutoGroup:         2.3D group
--  Puncta_CounterRemoveInadequate:  3.Removal of inadequate puncta 
--  Puncta_CounterAutolink:          4.Link puncta over different images
+-  Main visualization GUI: Puncta_Counter                  
+-  1.Puncta detection: Puncta_CounterAutodetect
+-  2.3D group: Puncta_CounterAutoGroup         
+-  3.Removal of inadequate puncta: Puncta_CounterRemoveInadequate   
+-  4.Link puncta over different images: Puncta_CounterAutolink          
 
 * Installation
   Please download Java 6 ImageJ (2013 July 15 version) so you can complie the customizable plugin: https://imagej.net/Fiji/Downloads 

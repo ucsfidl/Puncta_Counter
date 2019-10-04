@@ -15,10 +15,11 @@ Puncta_Counter is ImageJ Plugin an imaging processing pipeline which includes a 
   We recommend using CMTK toolkit to register images to correct misalignment before running puncta detection, more inforatmion about the toolkit and downloadable link: https://www.nitrc.org/projects/cmtkto 
 
 * Run Plugins
-  1. Clone/download the whole package and put everything in Fiji \ plugin folder
+  1. Clone/download the whole package and put everything in the plugins subfolder ( for Mac users, you need to right click the fiji app and Right Click and choose [Show Package Contents] to navigate to the plugins subfolder) 
   2. Everything is complied and ready to run, so start Fiji, under [Plugins] tab, there should be Puncta_Counter and other options. You can also custermize each plugins to suit sepecifc need. More details in next section.
-  3. Run Puncta_CounterAutodetect,  Puncta_CounterAutoGroup, Puncta_CounterRemoveInadequate for each image.
-  4. Run Puncta_CounterAutolink to link over different images (currently it's set to batch progess all corresponding images in 2 designated folders)
+  3. Open an image. If you prefer, you can download our sample images at https://ucsf.box.com/s/6dsgqhktz7mp2yy89l0ezvnzd60bp97j
+  4. Run Puncta_CounterAutodetect,  Puncta_CounterAutoGroup, Puncta_CounterRemoveInadequate for each image.
+  5. Run Puncta_CounterAutolink to link over different images (currently it's set to batch progess all corresponding images in 2 designated folders)
   
 * Customizable Plugins 
   1. In each subfolder, there is one java file PunctaCounter*_copy for the specific module *. You can custermize by changing the working folder, the size of processing image, the intensity and size threshold for the detected puncta, etc. After making the changes, you should rename the files to PunctaCounter* by removing the '_copy' and move one level to replace the working ones in the main folder. 
